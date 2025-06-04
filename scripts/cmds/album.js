@@ -13,8 +13,8 @@ module.exports = {
     name: "album",
     version: "1.0.0",
     role: 0,
-    author: "Dipto", //Don't Change Author name.
-    description: "Displays album options for selection.",
+    author: "Dipto", // Editing boy ArYan °° Don't Change Author name.
+    description: "Displays album options for selection.@ArYan",
     category: "Media",
     countDown: 5,
     guide: {
@@ -25,9 +25,9 @@ module.exports = {
   onStart: async function ({ api, event, args }) {
     if (!args[0]) {
       {
-        api.setMessageReaction("😘", event.messageID, (err) => {}, true);
+        api.setMessageReaction("🐼", event.messageID, (err) => {}, true);
       }
-      const albumOptions = [
+      const ArYan = [
         "𝗙𝘂𝗻𝗻𝘆 𝘃𝗶𝗱𝗲𝗼",
         "𝗜𝘀𝗹𝗮𝗺𝗶𝗰 𝘃𝗶𝗱𝗲𝗼",
         "𝗦𝗮𝗱 𝘃𝗶𝗱𝗲𝗼",
@@ -40,12 +40,11 @@ module.exports = {
         "𝗥𝗮𝗻𝗱𝗼𝗺 𝗣𝗵𝗼𝘁𝗼",
       ];
       const message =
-        "❤️‍🩹 𝗖𝗵𝗼𝗼𝘀𝗲 𝗮𝗻 𝗼𝗽𝘁𝗶𝗼𝗻𝘀 𝗕𝗮𝗯𝘆 <💝\n" +
-        "✿━━━━━━━━━━━━━━━━━━━━━━━✿\n" +
-        albumOptions
-          .map((option, index) => `${index + 1}. ${option} 🐤`)
+        "╭─────❁\n│      『 𝗔𝗟𝗕𝗨𝗠 𝗩𝗜𝗗𝗘𝗢 』 \n│\n" +
+        ArYan
+          .map((option, index) => `│${index + 1}. ${option} 🐤`)
           .join("\n") +
-        "\n✿━━━━━━━━━━━━━━━━━━━━━━━✿";
+        "\n╰────────────❁\n\n╭─────❁\n│   『 𝗘𝗩𝗘𝗥𝗬𝗢𝗡𝗘 』\n│please enter a valid\n│number of album\n╰────────────❁";
 
       await api.sendMessage(
         message,
@@ -56,7 +55,7 @@ module.exports = {
             type: "reply",
             messageID: info.messageID,
             author: event.senderID,
-            link: albumOptions,
+            link: ArYan,
           });
         },
         event.messageID,
@@ -65,7 +64,7 @@ module.exports = {
       {
         api.setMessageReaction("😘", event.messageID, (err) => {}, true);
       }
-      const albumOptions = [
+      const ArYan = [
         "𝗔𝗲𝘀𝘁𝗵𝗲𝘁𝗶𝗰 𝗩𝗶𝗱𝗲𝗼",
         "𝗦𝗶𝗴𝗺𝗮 𝗥𝘂𝗹𝗲",
         "𝗟𝘆𝗿𝗶𝗰𝘀 𝗩𝗶𝗱𝗲𝗼",
@@ -77,12 +76,11 @@ module.exports = {
         "𝗙𝗿𝗶𝗲𝗻𝗱𝘀 𝗩𝗶𝗱𝗲𝗼",
       ];
       const message =
-        "❤️‍🩹 𝗖𝗵𝗼𝗼𝘀𝗲 𝗮𝗻 𝗼𝗽𝘁𝗶𝗼𝗻𝘀 𝗕𝗮𝗯𝘆 <💝\n" +
-        "✿━━━━━━━━━━━━━━━━━━━━━━━✿\n" +
-        albumOptions
-          .map((option, index) => `${index + 11}. ${option} 🐤`)
+        "╭─────❁\n│      『 𝗔𝗟𝗕𝗨𝗠 𝗩𝗜𝗗𝗘𝗢 』 \n│\n" +
+        ArYan
+          .map((option, index) => `│${index + 11}. ${option} 🐤`)
           .join("\n") +
-        "\n✿━━━━━━━━━━━━━━━━━━━━━━━✿";
+        "\n╰────────────❁\n\n╭─────❁\n│   『 𝗘𝗩𝗘𝗥𝗬𝗢𝗡𝗘 』\n│please enter a valid\n│number of album\n╰────────────❁";
 
       await api.sendMessage(
         message,
@@ -93,7 +91,7 @@ module.exports = {
             type: "reply",
             messageID: info.messageID,
             author: event.senderID,
-            link: albumOptions,
+            link: ArYan,
           });
         },
         event.messageID,
@@ -124,7 +122,7 @@ module.exports = {
       "friend",
     ];
     {
-      api.setMessageReaction("👀", event.messageID, (err) => {}, true);
+      api.setMessageReaction("🐶", event.messageID, (err) => {}, true);
     }
     if (args[0] === "list") {
       try {
@@ -132,7 +130,7 @@ module.exports = {
         const data = res.data.data;
         const videoCount = data.match(/\d+/g).reduce((acc, num) => acc + parseInt(num), 0);
         api.sendMessage(
-          `𝘁𝗼𝘁𝗮𝗹 𝘃𝗶𝗱𝗲𝗼 𝗰𝗼𝘂𝗻𝘁: ${videoCount}`,
+          `╭─────❁\n│𝘁𝗼𝘁𝗮𝗹 𝘃𝗶𝗱𝗲𝗼 𝗰𝗼𝘂𝗻𝘁 \n│${videoCount}`,
           event.threadID,
           event.messageID,
         );
@@ -146,7 +144,7 @@ module.exports = {
         const data = lRes.data.data;
         const videoCount = data.match(/\d+/g).reduce((acc, num) => acc + parseInt(num), 0);
         api.sendMessage(
-          `🖤 𝗧𝗼𝘁𝗮𝗹 𝘃𝗶𝗱𝗲𝗼 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗶𝗻 𝗮𝗹𝗯𝘂𝗺 🩵\n\n${data}\n\n𝘁𝗼𝘁𝗮𝗹 𝘃𝗶𝗱𝗲𝗼 𝗰𝗼𝘂𝗻𝘁: ${videoCount}`,
+          ` ╭─────❁\n│𝗧𝗼𝘁𝗮𝗹 𝘃𝗶𝗱𝗲𝗼 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗶𝗻 𝗮𝗹𝗯𝘂𝗺 \n│🩵\n\n${data}\n│\n│𝘁𝗼𝘁𝗮𝗹 𝘃𝗶𝗱𝗲𝗼 𝗰𝗼𝘂𝗻𝘁: ${videoCount}\n╰────────────❃`,
           event.threadID,
           event.messageID,
         );
@@ -268,7 +266,7 @@ module.exports = {
     }
   },
   onReply: async function ({ api, event, Reply }) {
-    const admin = "100044327656712";
+    const admin = "61565025325331";
     api.unsendMessage(Reply.messageID);
     if (event.type == "message_reply") {
       const reply = parseInt(event.body);
@@ -350,7 +348,7 @@ module.exports = {
         fs.writeFileSync(filename, Buffer.from(imgRes.data, "binary"));
         api.sendMessage(
           {
-            body: `${cp}\n\n𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗨𝗿𝗹: ${imgUrl}`,
+            body: `\n│${cp}\n\n𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗨𝗿𝗹: ${imgUrl}`,
             attachment: fs.createReadStream(filename),
           },
           event.threadID,
@@ -366,4 +364,4 @@ module.exports = {
       }
     }
   },
-};
+  }
