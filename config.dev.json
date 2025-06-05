@@ -1,8 +1,8 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
-    "2FASecret": "",
+    "email": "vivoa1s523@gmail.com",
+    "password": "01111111",
+    "2FASecret": "hxgxm#",
     "i_user": "",
     "proxy": null,
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
@@ -52,7 +52,7 @@
   "timeZone": "Asia/Dhaka",
   "credentials": {
     "gmailAccount": {
-      "email": "messengerbot61@gamil.com",
+      "email": "vivoa1s523@gmail.com",
       "clientId": "552344212361-ujv8mjve7ue0r20t5caem9a41o8il508.apps.googleusercontent.com",
       "clientSecret": "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",
       "refreshToken": "1//04KHgkn8_-_PfCgYIARAAGAQSNwF-L9Iro-cV9UkOYQjg6noVALzdmrnrL8rijCPS96WGrKoflqLkXr76iZiXezLunTbJAU1AxS4",
