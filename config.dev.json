@@ -1,8 +1,8 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
-    "2FASecret": "",
+    "email": "ahmedzayan102@gmail.com",
+    "password": "910@12340",
+    "2FASecret": "hxhjdjj",
     "i_user": "",
     "proxy": null,
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
@@ -30,7 +30,7 @@
   ],
   "whiteListMode": {
     "enable": false,
-    "whiteListIds": ["61576827876421",
+    "whiteListIds": ["61571630409265",
 "",
       ""
     ],
@@ -52,7 +52,7 @@
   "timeZone": "Asia/Dhaka",
   "credentials": {
     "gmailAccount": {
-      "email": "vivoa1s523@gmail.com",
+      "email": "messengerbot61@gamil.com",
       "clientId": "552344212361-ujv8mjve7ue0r20t5caem9a41o8il508.apps.googleusercontent.com",
       "clientSecret": "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",
       "refreshToken": "1//04KHgkn8_-_PfCgYIARAAGAQSNwF-L9Iro-cV9UkOYQjg6noVALzdmrnrL8rijCPS96WGrKoflqLkXr76iZiXezLunTbJAU1AxS4",
