@@ -2,7 +2,7 @@ module.exports = {
   config: {
     name: "info",
     version: "1.5",
-    author: "✨ 𝐌𝐫.𝐒𝐦𝐨𝐤𝐞𝐲 ✨",
+    author: "✨ Tarek ✨",
     shortDescription: "Display bot and owner info",
     longDescription: "Shows owner's and bot's details with videos.",
     category: "INFO",
@@ -11,8 +11,7 @@ module.exports = {
 
   onStart: async function ({ api, event }) {
     const videoUrls = [
-      "https://files.catbox.moe/fk4p6y.mp4",  // 1st video
-      "https://files.catbox.moe/vovx3d.mp4",  // 2nd video
+      "https://files.catbox.moe/pi8hz7.mp4", 
     ];
 
     const msgBody = `
@@ -20,7 +19,7 @@ module.exports = {
            𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢
 └────────────────┘
 
-  ☁️ 𝗡𝗮𝗺𝗲 ➝ 𝐌𝐫. 𝐒𝐦𝐨𝐤𝐞𝐲
+  ☁️ 𝗡𝗮𝗺𝗲 ➝ 𝐌𝐫.𝐒𝐦𝐨𝐤𝐞𝐲
   🎂 𝗔𝗴𝗲 ➝ 18+
   🏠 𝗙𝗿𝗼𝗺 ➝ 𝐃𝐡𝐚𝐤𝐚(𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡)
   ❤️ 𝗥𝗲𝗹𝗮𝘁𝗶𝗼𝗻 ➝ 𝐒𝐢𝐧𝐠𝐥𝐞
