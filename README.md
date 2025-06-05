@@ -1,8 +1,8 @@
-<h1 align="center">MaHi's Bot </h1>
+<h1 align="center">𝐌𝐫.𝐒𝐦𝐨𝐤𝐞𝐲 Bot </h1>
 
 <p align="center">
   <a href="https://files.catbox.moe/2qwm2r.mp4">
-    <img src="https://i.imgur.com/MPrrh0Y.jpeg" alt="Watch demo video" width="400"/>
+    <img src="https:" alt="Watch demo video" width="400"/>
   </a>
 </p>
 
@@ -10,9 +10,9 @@
 
 ## 👤 OWNER INFO
 
-- 👑 Name: **MaHi**
+- 👑 Name: **𝐌𝐫.𝐒𝐦𝐨𝐤𝐞𝐲**
 - 🏙️ From: **Dhaka**
-- 🎂 Age: **16**
+- 🎂 Age: **18+**
 
 ---
 
@@ -52,4 +52,4 @@ Go to [UptimeRobot.com](https://uptimerobot.com) and sign up
 
 ---
 
-> 🤖 **Need help?** Contact MaHi or open an issue in the repo.
+> 🤖 **Need help?** Contact 𝐌𝐫.𝐒𝐦𝐨𝐤𝐞𝐲 or open an issue in the repo.
