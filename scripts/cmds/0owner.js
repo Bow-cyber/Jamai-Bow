@@ -16,12 +16,12 @@ config: {
   onStart: async function ({ api, event }) {
   try {
     const ownerInfo = {
-      name: 'Eren',
+      name: '𝐌𝐫.𝐬𝐦𝐨𝐤𝐞𝐲',
       gender: '𝐌𝐚𝐥𝐞',
-      age: '16±',
-      height: '5.11',
-      choise: 'Russian 😞',
-      nick: '𝐉𝐚𝐦𝐚𝐢  '
+      age: '1𝟖±',
+      height: '5+',
+      choise: '𝐢𝐬𝐥𝐚𝐦𝐢𝐜🥀',
+      nick: '𝐉𝐚𝐧  '
     };
 
     const bold = 'https://files.catbox.moe/dpgl9a.jpg'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
