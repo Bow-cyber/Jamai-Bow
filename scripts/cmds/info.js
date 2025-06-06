@@ -2,7 +2,7 @@ module.exports = {
   config: {
     name: "info",
     version: "1.5",
-    author: "✨ Tarek ✨",
+    author: "✨ 𝓜𝓡.𝓢𝓶𝓸𝓴𝓮𝔂 ✨",
     shortDescription: "Display bot and owner info",
     longDescription: "Shows owner's and bot's details with videos.",
     category: "INFO",
