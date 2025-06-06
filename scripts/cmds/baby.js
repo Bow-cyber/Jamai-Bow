@@ -163,7 +163,7 @@ module.exports.onChat = async ({
         const body = event.body ? event.body?.toLowerCase() : ""
         if (body.startsWith("baby") || body.startsWith("bby") || body.startsWith("bot") || body.startsWith("jan") || body.startsWith("babu") || body.startsWith("janu")) {
             const arr = body.replace(/^\S+\s*/, "")
-            const randomReplies = ["😘", " বার বার ডাকলে মাথা গরম হয় কিন্তু 😒 ", " 𝗮𝘀𝗵𝗼 𝗯𝗯𝘆 𝗸𝗶𝘀𝘀 𝗱𝗲𝗶🤭❤‍🩹 ", "Bolo jaan ki korte pari tomar jonno","𝗔𝗺𝗿 𝗯𝗼𝘀𝘀 𝗔𝘀𝗶𝗳 𝗲𝗿 𝗺𝗼𝗻 𝗸𝗵𝗮𝗿𝗮𝗽 𝗯𝗼𝘀𝘀 𝗲𝗿 𝗴𝗼𝗳 𝗻𝗮𝗶 😿"];
+            const randomReplies = ["😘", " বার বার ডাকলে মাথা গরম হয় কিন্তু 😒 ", " 𝗮𝘀𝗵𝗼 𝗯𝗯𝘆 𝗸𝗶𝘀𝘀 𝗱𝗲𝗶🤭❤‍🩹 ", "Bolo jaan ki korte pari tomar jonno","𝗔𝗺𝗿 𝗯𝗼𝘀𝘀 𝗔𝘀𝗶𝗳 𝗲𝗿 𝗺𝗼𝗻 𝗸𝗵𝗮𝗿𝗮𝗽 𝗯𝗼𝘀𝘀 𝗲𝗿 𝗴𝗼𝗳 𝗻𝗮𝗶 😿"," Nesha Korcho? "," ami tomar gf na ami tomar clg ar madam😒 "];
             if (!arr) {
 
                 await api.sendMessage(randomReplies[Math.floor(Math.random() * randomReplies.length)], event.threadID, (error, info) => {
